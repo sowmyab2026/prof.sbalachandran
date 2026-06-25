@@ -1,48 +1,57 @@
-# Balachandran Urban Systems Lab / Sowmya Balachandran Website
+# Sowmya Balachandran Research Portfolio Website
 
-This is a GitHub Pages-ready static website.
+This is the rebuilt GitHub Pages-ready website.
 
-## Upload these files to GitHub
+## Architecture
 
-Upload the CONTENTS of this folder, not the zip file itself.
+Primary navigation:
+- About
+- Research
+- Teaching
+- Practice
+- Publications
+- Lab
+- Contact
 
-The repository root should contain:
+The Research page replaces the earlier duplicate Research/Projects structure. It links to detailed project pages.
 
+## Upload to GitHub
+
+Upload the CONTENTS of this folder to the root of the GitHub repository.
+
+The repository should contain:
 - index.html
 - about.html
 - research.html
-- projects.html
-- governing-regional-futures.html
+- teaching.html
 - practice.html
 - publications.html
-- teaching.html
+- lab.html
 - contact.html
+- project and course HTML pages
 - assets/
 
-## GitHub Pages Settings
+## GitHub Pages
 
-1. Open your repository on GitHub.
-2. Click Settings.
-3. Click Pages.
-4. Under Build and deployment:
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: /root
-5. Click Save.
+In the repository:
+1. Settings
+2. Pages
+3. Source: Deploy from a branch
+4. Branch: main
+5. Folder: /root
+6. Save
 
-Your site should appear at:
-https://YOURUSERNAME.github.io
+## Custom domain later
 
-## Future updates
+After GitHub Pages is working, add:
+sowmyabalachandran.com
 
-To update the website:
-1. Edit the relevant .html file.
-2. Upload/replace it in GitHub.
-3. Commit changes.
-4. Wait 1-2 minutes.
+Then configure DNS through Namecheap.
 
 ## Notes
 
-- Full paper PDFs are not hosted.
-- Project reports can be added later as links.
-- The CAREER page is designed to grow over time with reports, maps, dashboards, teaching modules, simulations, and public outputs.
+- Full syllabi are not posted.
+- Journal article PDFs are not posted.
+- Public reports and student project reports are included as downloadable PDFs.
+- Links use descriptive ADA-friendly text.
+- Images have alt text and have been optimized for web use.

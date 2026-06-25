@@ -1,0 +1,13 @@
+
+document.addEventListener("DOMContentLoaded", function(){
+  const input = document.getElementById("siteSearch");
+  if(!input) return;
+  const items = Array.from(document.querySelectorAll(".search-result"));
+  input.addEventListener("input", function(){
+    const q = input.value.trim().toLowerCase();
+    items.forEach(function(item){
+      const text = (item.textContent + " " + (item.dataset.keywords || "")).toLowerCase();
+      item.style.display = !q || text.includes(q) ? "block" : "none";
+    });
+  });
+});
