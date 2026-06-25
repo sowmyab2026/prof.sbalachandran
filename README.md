@@ -55,3 +55,16 @@ Then configure DNS through Namecheap.
 - Public reports and student project reports are included as downloadable PDFs.
 - Links use descriptive ADA-friendly text.
 - Images have alt text and have been optimized for web use.
+
+
+## Downloadable PDFs
+
+The website links to PDFs in:
+
+- `assets/downloads/`
+
+For convenience, the same PDFs are also duplicated in:
+
+- `downloads/`
+
+When uploading to GitHub, upload BOTH folders. The website itself uses `assets/downloads/`.
