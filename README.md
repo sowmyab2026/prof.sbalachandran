@@ -1,3 +1,5 @@
-# Sowmya Balachandran Website
+# Sowmya Balachandran Website — No Downloads Version
 
-GitHub Pages-ready static website. Copy all files and folders into the cloned repository, commit to main, and push origin.
+This GitHub Pages site intentionally includes no downloadable PDFs. PDFs and reports were used only as source material for project descriptions.
+
+Upload contents to the repository root, commit, and push.
